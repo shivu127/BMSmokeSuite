@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="src" path="src/main/resource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/.m2/repository/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar" sourcepath="C:/Users/Admin/.m2/repository/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.rest-assured"/>
+			<attribute name="maven.artifactId" value="rest-assured"/>
+			<attribute name="maven.version" value="4.0.0"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Admin/.m2/repository/org/aspectj/aspectjtools/1.8.13/aspectjtools-1.8.13.jar" sourcepath="C:/Users/Admin/.m2/repository/org/aspectj/aspectjtools/1.8.13/aspectjtools-1.8.13-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.aspectj"/>
+			<attribute name="maven.artifactId" value="aspectjtools"/>
+			<attribute name="maven.version" value="1.8.13"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.7.1/selenium-chrome-driver-3.7.1.jar" sourcepath="C:/Users/Admin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.7.1/selenium-chrome-driver-3.7.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-chrome-driver"/>
+			<attribute name="maven.version" value="3.7.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Softwares/Driver/CucumberJars/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Driver/CucumberJars/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Driver/CucumberJars/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Driver/CucumberJars/cucumber-core-4.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Driver/CucumberJars/cucumber-java-4.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Driver/CucumberJars/cucumber-junit-4.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Driver/CucumberJars/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/Driver/CucumberJars/cucumber-reporting-4.7.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

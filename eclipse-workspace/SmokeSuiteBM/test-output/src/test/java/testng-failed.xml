@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [src/test/java]" allow-return-values="true">
+  <listeners>
+    <listener class-name="com.bm.listeners.WebDriverListener"/>
+  </listeners>
+  <test thread-count="1" name="brandSmartDesktop(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="env" value="stage"/>
+    <parameter name="brand" value="BM"/>
+    <classes>
+      <class name="com.bm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="TC_02"/>
+        </methods>
+      </class> <!-- com.bm.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- brandSmartDesktop(failed) -->
+</suite> <!-- Failed suite [src/test/java] -->

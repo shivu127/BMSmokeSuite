@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Brand smart automation suite">
+<test name="Brand smart automation"> 
+<clasess>
+<class name="com.bm.qa.testcases.homePageTest"></class>
+<class name="com.bm.qa.testcases.registrationpage"></class>
+<class name=""></class>
+</clasess>
+</test>
+</suite>"

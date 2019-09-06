@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.bm.qa.testcases.AccountManagementTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setUpSuite"/>
+          <include name="captureStatus"/>
+          <include name="tearDown"/>
+          <include name="TC_03_1"/>
+        </methods>
+      </class> <!-- com.bm.qa.testcases.AccountManagementTest -->
+      <class name="com.bm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setUpSuite"/>
+          <include name="captureStatus"/>
+          <include name="tearDown"/>
+          <include name="TC_08"/>
+        </methods>
+      </class> <!-- com.bm.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
